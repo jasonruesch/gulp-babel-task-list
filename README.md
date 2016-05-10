@@ -1,4 +1,4 @@
-[gulp](http://gulpjs.com)-task-list
+[gulp](http://gulpjs.com)-babel-task-list
 ==============
 
 gulp-babel-task-list is a [gulp](http://gulpjs.com) task that lists all tasks in gulpfile.js along with their comments.
