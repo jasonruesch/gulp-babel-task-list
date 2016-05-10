@@ -10,7 +10,7 @@ module.exports = function(gulp, ignoreTasks) {
       ignoreTasks = [];
     }
     gulp.task('task-list', function() {
-        var gulpfileCode = fs.readFileSync('gulpfile.js').toString(),
+        var gulpfileCode = fs.readFileSync('gulpfile.babel.js').toString(),
             table = new clitable({
                 head: ['Task name', 'Description', 'Dependencies'],
                 chars: {
