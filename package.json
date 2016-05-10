@@ -1,23 +1,24 @@
 {
-  "name": "gulp-task-list",
+  "name": "gulp-babel-task-list",
   "version": "0.0.1",
-  "description": "Lists gulp tasks and their comments",
+  "description": "Lists gulp tasks and their comments from a gulp.babel.js file",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/totolicious/gulp-task-list.git"
+    "url": "https://github.com/jasonruesch/gulp-babel-task-list.git"
   },
   "keywords": [
     "gulp",
+    "babel",
     "task",
     "list"
   ],
-  "author": "Totolicious",
+  "author": "Jason Ruesch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/totolicious/gulp-task-list/issues"
+    "url": "https://github.com/jasonruesch/gulp-babel-task-list/issues"
   },
-  "homepage": "https://github.com/totolicious/gulp-task-list",
+  "homepage": "https://github.com/jasonruesch/gulp-babel-task-list",
   "dependencies": {
     "graceful-fs": "~3.0.2",
     "cli-table": "~0.3.0",
