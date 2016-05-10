@@ -1,7 +1,7 @@
 [gulp](http://gulpjs.com)-task-list
 ==============
 
-gulp-task-list is a [gulp](http://gulpjs.com) task that lists all tasks in gulpfile.js along with their comments.
+gulp-babel-task-list is a [gulp](http://gulpjs.com) task that lists all tasks in gulpfile.js along with their comments.
 
     
 gulpfile.js
@@ -11,7 +11,7 @@ gulpfile.js
 
     var gulp = require('gulp');
     
-    require('gulp-task-list')(gulp);
+    require('gulp-babel-task-list')(gulp);
     
     // this task is a dummy task
     gulp.task('some-task', function() {
@@ -40,7 +40,7 @@ Ignore a task to be displayed
 
     var gulp = require('gulp');
 
-    require('gulp-task-list')(gulp, ['private-task']);
+    require('gulp-babel-task-list')(gulp, ['private-task']);
 
     // this task is a dummy task
     gulp.task('some-task', function() {
