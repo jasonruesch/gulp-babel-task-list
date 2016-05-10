@@ -1,6 +1,6 @@
 {
   "name": "gulp-babel-task-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lists gulp tasks and their comments from a gulpfile.babel.js file",
   "main": "index.js",
   "repository": {

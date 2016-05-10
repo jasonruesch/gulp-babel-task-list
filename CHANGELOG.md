@@ -7,3 +7,7 @@
 ## 0.0.1
 
 - Fixed package.json dependency
+
+## 0.0.2
+
+- Updated LICENSE and README.md files
